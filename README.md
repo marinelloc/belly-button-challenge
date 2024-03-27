@@ -1,1 +1,1 @@
-# belly-button-challenge
+The Belly Button Biodiversity Dashboard utilizes D3.js to visualize microbial data from samples. It features a dropdown menu to select individual samples, displaying top operational taxonomic units (OTUs) in a horizontal bar chart and microbial diversity in a bubble chart. Demographic metadata of the selected sample is also shown. Data is fetched from samples.json and updated dynamically, offering an interactive exploration of the microbial composition in human navels.
