@@ -37,8 +37,16 @@ function init() {
         buildMetadata(defaultSample);
         buildBarChart(defaultSample);
         buildBubbleChart(defaultSample);
+        
+        dropdownMenu.on("change", function() {
+            let newSample = dropdownMenu.property("value");
+            updateDashboard(newSample);
+        })
+
     });
 };
+
+
 
 // Populate metadata info
 function buildMetadata(sample) {
